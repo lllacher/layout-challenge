@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout EChallenge</title>
+  <meta charset="utf-8" name="description" content="Layout challenge from designs to code for Thinkful's front end web development course">
+
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- reset -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- icons -->
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  <!-- your styles go in position-page.css -->
+  <link rel="stylesheet" type="text/css" href="styles/layout-challenge.css">
+</head>
+
+<body>
+  <header>
+    <h1>Greg's List</h1>
+    <nav>
+      <a href="post.html" class="link-text">Post</a></li>
+      <a href="account.html" class="link-text">Account</a></li>
+    </nav>
+  </header>
+
+  <section class="search">
+    <form action="#">
+      <input type="text" id="search" placeholder="Search software jobs" />
+      <button type="submit" class="search-button">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+    </form>
+  </section>
+
+  <section class="page-nav">
+    <input type="button" id="page-back" value="<prev"/>
+    <span>1 to 100 of 179</span>
+    <input type="button" id="page-forward" value="next>"/>
+  </section>
+
+  <main>
+    <ul class="job-list">
+      <li class="job">
+        <span class="fa fa-star-o" aria-hidden="true"></span>
+        <span class="job-date"> June 22 </span>
+        <a href="?" class="job-title">Technical Project Manager </a>
+        <span class="job-city"> Midtown East </span>
+      </li>
+      <li class="job">
+        <span class="fa fa-star-o" aria-hidden="true"></span>
+        <span class="job-date"> June 21 </span>
+        <a href="?" class="job-title">Frontend Developer </a>
+        <span class="job-city"> SoHo </span>
+      </li>
+      <li class="job">
+        <span class="fa fa-star-o" aria-hidden="true"></span>
+        <span class="job-date"> June 20 </span>
+        <a href="?" class="job-title">Senior Python Developer / Cofounder </a>
+        <span class="job-city"> Flatiron </span>
+      </li>
+    </ul>
+  </main>
+
+  </body>
+</html>
